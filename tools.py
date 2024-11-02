@@ -10,7 +10,7 @@ kernal = np.ones((2, 2), np.uint8)
 
 dilation = cv2.dilate(thresh, kernal, iterations=2)
 
-contours, hierarchy = cv2.findContours(
+contours, _ = cv2.findContours(
     dilation, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
 tools = str(len(contours))
