@@ -20,3 +20,9 @@ Digital Image Processing exercices
 
 ![output_exercise_3](./outputs/exercise3.png)
 
+![exercise_4](./doc/exercise4.png)
+
+`python .\cme.py` to run the exercise 4 (look at the terminal and see output)
+
+
+
